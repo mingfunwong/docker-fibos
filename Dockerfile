@@ -3,5 +3,5 @@ FROM mingfunwong/fibos:base
 WORKDIR /fibos
 COPY package.json package.json
 
-RUN curl -s https://fibos.io/download/installer.sh?v1.7.1.7 | sh \
+RUN curl -s https://fibos.io/download/installer.sh?v1.7.1.8 | sh \
   && fibos --install fibos.js
